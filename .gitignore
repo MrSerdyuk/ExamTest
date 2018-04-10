@@ -1,4 +1,9 @@
 # Compiled class file
+
+*.iml
+.idea
+target
+
 *.class
 
 # Log file

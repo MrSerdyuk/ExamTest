@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Search test" verbose="1" >
+    <test name="Firefox driver" >
+        <parameter name="browserType" value="firefox" />
+        <classes>
+            <class name="tests.GoogleSearchTest" />
+        </classes>
+    </test>
+</suite>

@@ -29,8 +29,9 @@ public class GoogleSearchResultsPage extends GoogleBasePage {
         PageFactory.initElements(driver, this);
     }
 
-    /**Method creates new instance of GoogleSearchResultsPage class by clicking on the link of the second google search page
-     * @return new instance of GoogleSearchResultsPage
+    /**
+     * Method creates new instance of GoogleSearchResultsPage class by clicking on the link of the second google search page
+     * @return new instance of GoogleSearchResultsPage class
      */
     public GoogleSearchResultsPage openSecondResultsPage(){
         secondPageLink.click();

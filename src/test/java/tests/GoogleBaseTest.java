@@ -19,7 +19,7 @@ public class GoogleBaseTest {
     /**
      * Method, with help of TestNG @Parameters and @Optional, sets the browserType, which will be run before @Test;
      * in this case, there are possible 2 browsers: firefox and default chrome;
-     * then goes to google and creates ned instance of GoogleHomePage class and get page title
+     * then goes to google and creates new instance of GoogleHomePage class and get page title
      * @param browserType is a possible(firefox or default chrome) browser to be run
      */
     @Parameters({"browserType"})

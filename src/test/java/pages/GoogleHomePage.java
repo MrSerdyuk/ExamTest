@@ -23,7 +23,7 @@ public class GoogleHomePage extends GoogleBasePage{
     }
 
     /**
-     * Constructor of GoogleSearchResultsPage class that takes searchTerm, writes search term to the searchInput,
+     * Method takes searchTerm, writes search term to the searchInput,
      * submits searchTerm with searchButton and create new instance of GoogleSearchResultsPage
      * @param searchTerm - String search term
      * @return new instance of GoogleSearchResultsPage

@@ -18,7 +18,7 @@ public class GoogleBasePage {
     }
 
     /**
-     * The title of the current page
+     * Method gets the title of the current page
      * @return - title of the current page
      */
     public String getPageTitle() {
@@ -26,7 +26,7 @@ public class GoogleBasePage {
     }
 
     /**
-     * Constructor waits for timeoutInSeconds until the WebElement becomes visible and clickable on the current page
+     * Method waits for timeoutInSeconds until the WebElement becomes visible and clickable on the current page
      * @param webElement - any webElement on the current page
      * @param timeoutInSeconds - expectation time
      */
@@ -36,7 +36,7 @@ public class GoogleBasePage {
     }
 
     /**
-     * Constructor waits 5 seconds until the WebElement becomes visible and clickable on the current page
+     * Method waits 5 seconds until the WebElement becomes visible and clickable on the current page
      * @param webElement - any webElement on the current page
      */
     public void waitUntilElementIsClickable(WebElement webElement) {
